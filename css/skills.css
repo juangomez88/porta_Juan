@@ -65,16 +65,94 @@
     font-size: 14px;
 }
 
+/* se agregaran dinamicamente mediante javascript
+ */
 .skills .skill .javascript{
     width: 0%;
     animation: 2s javascript forwards;
 }
 @keyframes javascript{
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 55%;}
 }
 
-@keyframes javascript{
-    0%{width: 0%}
+.skills .skill .html{
+    width: 0%;
+    animation: 2s html forwards;
+}
+@keyframes html{
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+.skills .skill .css{
+    width: 0%;
+    animation: 2s css forwards;
+}
+@keyframes css{
+    0%{width: 0%;}
     100%{width: 75%;}
 }
+.skills .skill .java{
+    width: 0%;
+    animation: 2s java forwards;
+}
+@keyframes java{
+    0%{width: 0%;}
+    100%{width: 60%;}
+}
+
+.skills .skill .kotlin{
+    width: 0%;
+    animation: 2s kotlin forwards;
+}
+@keyframes kotlin{
+    0%{width: 0%;}
+    100%{width: 45%;}
+}
+
+.skills .skill .react{
+    width: 0%;
+    animation: 2s react forwards;
+}
+@keyframes react{
+    0%{width: 0%;}
+    100%{width: 45%;}
+}
+
+.skills .skill .comunicacion{
+    width: 0%;
+    animation: 2s comunicacion forwards;
+}
+@keyframes comunicacion{
+    0%{width: 0%;}
+    100%{width: 85%;}
+}
+
+.skills .skill .equipo{
+    width: 0%;
+    animation: 2s equipo forwards;
+}
+@keyframes equipo{
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+.skills .skill .creatividad{
+    width: 0%;
+    animation: 2s creatividad forwards;
+}
+@keyframes creatividad{
+    0%{width: 0%;}
+    100%{width: 85%;}
+}
+
+.skills .skill .dedicacion{
+    width: 0%;
+    animation: 2s dedicacion forwards;
+}
+@keyframes dedicacion{
+    0%{width: 0%;}
+    100%{width: 90%;}
+}
+
