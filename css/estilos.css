@@ -16,6 +16,8 @@ html{
     --color-background: #1e2326;
     --color-background2: #252a2e;
     --color-background3: #131517;
+    --color-background4: (rgba(28,182,152,0.8), rgba(28,182,152,0.8));
     --color-titulo: #0A9396;  
     --color-letra: #fff;
+
 }
