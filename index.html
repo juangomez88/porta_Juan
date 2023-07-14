@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="./css/curriculum.css">
     <link rel="stylesheet" href="./css/portafolio.css">
     <link rel="stylesheet" href="./css/contacto.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/responsive.css">
 </head>
 <body>
     <!-- Encabezado -->
@@ -23,15 +25,15 @@
             </div>
             <nav id="nav">
                 <ul>
-                    <li><a href="#inicio">INICIO</a></li>
-                    <li><a href="#sobremi">SOBRE MI</a></li>
-                    <li><a href="#skills">SKILLS</a></li>
-                    <li><a href="#curriculum">CURRICULUM</a></li>
-                    <li><a href="#portafolio">PORTAFALIO</a></li>
-                    <li><a href="#contacto">CONTACTO</a></li>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFALIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
                 </ul>
             </nav>
-            <div class="nav-responsive">
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
                 <i class="fa fa-solid fa-bars"></i>
             </div>
         </header>
@@ -339,5 +341,19 @@
             </div>
         </div>
     </section>
+    <!-- footer --> 
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa far fa-caret-square-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
