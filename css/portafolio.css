@@ -30,6 +30,11 @@
     cursor: pointer;
 }
 
+.portafolio .galeria .proyecto a{
+    color: var(--color-letra);
+    text-decoration: none;
+}
+
 .portafolio .galeria .proyecto img{
     width: 100%;
     display: block;

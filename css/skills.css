@@ -65,6 +65,7 @@
     font-size: 14px;
 }
 
+
 /* se agregaran dinamicamente mediante javascript
  */
 .skills .skill .javascript{
@@ -116,6 +117,15 @@
     animation: 2s react forwards;
 }
 @keyframes react{
+    0%{width: 0%;}
+    100%{width: 45%;}
+}
+
+.skills .skill .unity{
+    width: 0%;
+    animation: 2s unity forwards;
+}
+@keyframes unity{
     0%{width: 0%;}
     100%{width: 45%;}
 }

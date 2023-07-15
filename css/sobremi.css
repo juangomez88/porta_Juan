@@ -103,6 +103,11 @@
     z-index: 10;
 }
 
+.sobremi button a{
+    text-decoration: none;
+    color: var(--color-letra);
+}
+
 .sobremi button .overlay{
     position: absolute;
     top: 0;

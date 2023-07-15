@@ -36,6 +36,29 @@
     border-right: 2px solid var(--color-background2);
 }
 
+.curriculum .fila .izquierda #udea{
+    width: 24%;
+    background-color: var(--color-letra);
+    border-radius: 10%;
+}
+
+.curriculum .fila .izquierda #alura{
+    width: 24%;
+    background-color: var(--color-letra);
+    border-radius: 10%;
+}
+.curriculum .fila .izquierda #udemy{
+    width: 24%;
+    background-color: var(--color-letra);
+    border-radius: 10%;
+}
+
+.curriculum .fila .izquierda #platzi{
+    width: 24%;
+    background-color: var(--color-letra);
+    border-radius: 10%;
+}
+
 .curriculum .fila .derecha{
     border-left: 2px solid var(--color-background2);
 }
